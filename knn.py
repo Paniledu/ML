@@ -9,8 +9,8 @@ X = df['v2'].values
 y = df['v1'].values  
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
 cv = CountVectorizer()
-X_train = cv.fit_transform(X_train)  # Fit and transform the training data
-X_test = cv.transform(X_test)        # Only transform
+X_train = cv.fit_transform(X_train)  
+X_test = cv.transform(X_test)        
 knn_classifier = KNeighborsClassifier(n_neighbors=5)
 knn_classifier.fit(X_train, y_train)
 y_predict_knn = knn_classifier.predict(X_test)
