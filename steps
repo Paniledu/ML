@@ -1,0 +1,75 @@
+Steps for Implementing RBF:
+1,Import Libraries
+2,Generate Data
+3,define radial basis fn.
+4,cal. rbf centers
+5, compute rbf activation
+6,fit wt.
+7,predict and evaluate
+
+
+Key Steps of GA:
+1,Initialization
+2,evaluation
+3,selection
+4,crossover
+5,mutation
+6,termination
+
+
+Steps to Implement Linear Regression:
+1,Generate Data
+2,hyp.fn.
+3,cost fn.
+4,gradient descent
+5, visualize results
+
+
+Post-Pruning Decision Tree Implementation
+Step 1: Load Data
+step 2:data splitting
+step 3:train fully grown tree
+step 4: cost-complexity pruning
+step 5:validation
+step 6:eval. on test data
+
+
+Steps for Implementation of Dtree
+1,Load Dataset
+2,split data
+3,train decision tree
+4,eval. model
+5, visualize decision tree
+
+
+Steps of the Find-S Algorithm:
+1,Initialize Hypothesis
+2, iterate th. examples
+3,o/p the hyp.
+
+
+Steps of the Candidate Elimination Algorithm:
+1,Initialize Hypothesis
+2, iterate th. examples
+3,o/p the hyp.
+
+Steps of the knn Algorithm
+s1: prepare dataset
+s2:preprocess data
+s3: split data
+s4:choose k
+s5: train model
+s6:classify test instances
+s7:evaluate model
+s8:visualization
+
+
+Steps of the nbc Algorithm
+s1: prepare dataset
+s2:preprocess data
+s3: split data
+s4:choose naive bayes variant
+s5: train model
+s6:make predictions
+s7:evaluate model
+s8:visualization
